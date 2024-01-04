@@ -7,18 +7,16 @@
     <title>Katik</title>
 </head>
 <body>
+    <script src="js/script.js"></script>
     <div class="content">
         <div class="header">
             <h1>Welcome to Katik</h1>
             <h3>Hai Sobat, Selamat Datang di Katik :) </h3>
-            <h3>Sebuah WEB Aplikasi sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</h3>
+            <hr>
         </div>
         <div>
-            <button class="segitiga">
-                <p>Segitiga</p>
-            </button>
+            <h1 class="segitiga">Segitiga</h1>
         </div>
-
         <div class="luas">
             <h1 style="text-align: center" class="judul">Luas Segitiga</h1>
             <img src="img/segitiga.jpg.webp" alt="">
@@ -28,6 +26,10 @@
             <p>L = Luas</p>
             <p>a = Panjang Alas</p>
             <p>t = Tinggi</p>
+            <button class="change">
+                <p>Change</p>
+            </button>
+
             <hr>
             <div>
                 <h1 style="text-align: center;"> Hitung Luas Segitiga</h1>
@@ -36,13 +38,15 @@
                     <br>
                     <input type="text" placeholder="Tinggi">
                     <br>
-                    <button type="submit" style="background-color: blue;"> Hitung </button>
+                    <button type="reset"> Clear </button>
+                    <button type="submit"> Hitung </button>
                 </form>
+                <div class="resultLuas"></div>
             </div>
         </div>
 
         
-        <div class="keliling">
+        <div class="keliling" style="display:none">
             <h1 style="text-align: center" class="judul">Keliling Segitiga</h1>
             <img src="img/segitiga.jpg.webp" alt="">
             <p>Rumus Keliling Segitiga :</p>
@@ -52,6 +56,9 @@
             <p>a = Sisi 1</p>
             <p>b = Sisi 2</p>
             <p>c = Sisi 3</p>
+            <button class="change">
+                <p>Change</p>
+            </button>
             <hr>
             <div>
                 <h1 style="text-align: center;"> Hitung Keliling Segitiga</h1>
@@ -62,8 +69,10 @@
                     <br>
                     <input type="text" placeholder="c">
                     <br>
-                    <button type="submit" style="background-color: blue;"> Hitung </button>
+                    <button type="reset"> Clear </button>
+                    <button type="submit"> Hitung </button>
                 </form>
+                <div class="resultKeliling"></div>
             </div>
         </div>
     </div>
