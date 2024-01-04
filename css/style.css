@@ -1,0 +1,101 @@
+/* Header Styling */
+.content{
+    padding: 10px;
+    background-color: white;
+}
+
+body{
+    background-color:rgb(192,192,192);
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.segitiga{
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(51, 201, 204);
+    border: white;
+    text-align: center;
+}
+
+.segitiga p {
+    color: white;
+    font-weight: bold;
+}
+.luas {
+    width: 100%;
+    border: 1px solid rgb(51, 201, 204);
+}
+
+.luas p {
+    margin-left: 10px;
+}
+
+
+.judul{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(51, 201, 204);
+    color: white;
+
+}
+/* Image Styling */
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.rumus {
+    margin-left: 10px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
